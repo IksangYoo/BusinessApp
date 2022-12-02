@@ -9,7 +9,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SocialViewController : UIViewController
+@interface SocialViewController : UIViewController{
+    
+    NSTimer *timer;
+    
+}
+
+@property (strong, nonatomic) NSString *detail;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
 
 @end
 

@@ -6,6 +6,8 @@
 //
 
 #import "SocialTableViewController.h"
+#import "SocialTableViewCell.h"
+#import "SocialViewController.h"
 
 @interface SocialTableViewController ()
 
@@ -15,35 +17,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"Social Links";
+    self.tableView.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Background.png"]];
+    title = @[@"Facebook",@"Twitter",@"Google+",@"LinkedIn",@"YouTube",@"Website"];
+    image = @[@"SocialIcon1.png",@"SocialIcon2.png",@"SocialIcon3.png+",@"SocialIcon4.png",@"SocialIcon5.png",@"SocialIcon6.png"];
+    [[self navigationItem] setBackBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil]];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return title.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    SocialTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    cell.cellTitle.text = title[indexPath.row];
+    cell.cellImage.image = [UIImage imageNamed: image[indexPath.row]];
     
     return cell;
 }
-*/
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 100;
+}
 
 /*
 // Override to support conditional editing of the table view.
@@ -79,14 +83,20 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
+    if([[segue identifier] isEqualToString:@"showDetail"]) {
+        SocialViewController *detailView = [segue destinationViewController];
+        NSIndexPath *myIndexPath =[self.tableView indexPathForSelectedRow];
+        
+        int row = (int)[myIndexPath row];
+        detailView.detail = title[row];
+    }
 }
-*/
+
 
 @end

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0E059C293842E2008A4BDD /* PortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E059B293842E2008A4BDD /* PortfolioViewController.m */; };
+		DD0E05A029384AA8008A4BDD /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E059F29384AA8008A4BDD /* ContactViewController.m */; };
+		DD0E05A329384E06008A4BDD /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E05A229384E06008A4BDD /* MapPin.m */; };
+		DD0E05A6293852D7008A4BDD /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E05A5293852D7008A4BDD /* EmailViewController.m */; };
+		DD0E05A9293856D2008A4BDD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0E05A8293856D2008A4BDD /* MapKit.framework */; };
+		DD0E05AB293856D7008A4BDD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0E05AA293856D7008A4BDD /* Accounts.framework */; };
+		DD0E05AD293856F7008A4BDD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0E05AC293856F7008A4BDD /* MessageUI.framework */; };
+		DD0E05B129399D2F008A4BDD /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E05B029399D2F008A4BDD /* SocialTableViewController.m */; };
+		DD0E05B429399D53008A4BDD /* SocialTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E05B329399D53008A4BDD /* SocialTableViewCell.m */; };
+		DD0E05B729399D63008A4BDD /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E05B629399D63008A4BDD /* SocialViewController.m */; };
 		DD653D4C293041CB00185834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D4B293041CB00185834 /* AppDelegate.m */; };
 		DD653D4F293041CB00185834 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D4E293041CB00185834 /* SceneDelegate.m */; };
 		DD653D52293041CB00185834 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D51293041CB00185834 /* ViewController.m */; };
@@ -17,6 +27,9 @@
 		DD653D67293041CC00185834 /* BusinessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D66293041CC00185834 /* BusinessAppTests.m */; };
 		DD653D71293041CC00185834 /* BusinessAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D70293041CC00185834 /* BusinessAppUITests.m */; };
 		DD653D73293041CC00185834 /* BusinessAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D72293041CC00185834 /* BusinessAppUITestsLaunchTests.m */; };
+		DD653D8229354F3E00185834 /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D8129354F3E00185834 /* ServicesViewController.m */; };
+		DD653D8529354F6B00185834 /* ServicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D8429354F6B00185834 /* ServicesTableViewCell.m */; };
+		DD653D8829354F9700185834 /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD653D8729354F9700185834 /* ServicesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD0E059A293842E2008A4BDD /* PortfolioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioViewController.h; sourceTree = "<group>"; };
+		DD0E059B293842E2008A4BDD /* PortfolioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioViewController.m; sourceTree = "<group>"; };
+		DD0E059E29384AA8008A4BDD /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		DD0E059F29384AA8008A4BDD /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		DD0E05A129384E06008A4BDD /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		DD0E05A229384E06008A4BDD /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		DD0E05A4293852D7008A4BDD /* EmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		DD0E05A5293852D7008A4BDD /* EmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		DD0E05A8293856D2008A4BDD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD0E05AA293856D7008A4BDD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		DD0E05AC293856F7008A4BDD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DD0E05AF29399D2F008A4BDD /* SocialTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialTableViewController.h; sourceTree = "<group>"; };
+		DD0E05B029399D2F008A4BDD /* SocialTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
+		DD0E05B229399D53008A4BDD /* SocialTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialTableViewCell.h; sourceTree = "<group>"; };
+		DD0E05B329399D53008A4BDD /* SocialTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewCell.m; sourceTree = "<group>"; };
+		DD0E05B529399D63008A4BDD /* SocialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		DD0E05B629399D63008A4BDD /* SocialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
 		DD653D47293041CB00185834 /* BusinessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD653D4A293041CB00185834 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD653D4B293041CB00185834 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +84,12 @@
 		DD653D6C293041CC00185834 /* BusinessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD653D70293041CC00185834 /* BusinessAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessAppUITests.m; sourceTree = "<group>"; };
 		DD653D72293041CC00185834 /* BusinessAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		DD653D8029354F3E00185834 /* ServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
+		DD653D8129354F3E00185834 /* ServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
+		DD653D8329354F6B00185834 /* ServicesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewCell.h; sourceTree = "<group>"; };
+		DD653D8429354F6B00185834 /* ServicesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewCell.m; sourceTree = "<group>"; };
+		DD653D8629354F9700185834 /* ServicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewController.h; sourceTree = "<group>"; };
+		DD653D8729354F9700185834 /* ServicesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0E05AD293856F7008A4BDD /* MessageUI.framework in Frameworks */,
+				DD0E05AB293856D7008A4BDD /* Accounts.framework in Frameworks */,
+				DD0E05A9293856D2008A4BDD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0E0599293842C7008A4BDD /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				DD0E059A293842E2008A4BDD /* PortfolioViewController.h */,
+				DD0E059B293842E2008A4BDD /* PortfolioViewController.m */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		DD0E059D29384A98008A4BDD /* Contact Us */ = {
+			isa = PBXGroup;
+			children = (
+				DD0E059E29384AA8008A4BDD /* ContactViewController.h */,
+				DD0E059F29384AA8008A4BDD /* ContactViewController.m */,
+				DD0E05A129384E06008A4BDD /* MapPin.h */,
+				DD0E05A229384E06008A4BDD /* MapPin.m */,
+				DD0E05A4293852D7008A4BDD /* EmailViewController.h */,
+				DD0E05A5293852D7008A4BDD /* EmailViewController.m */,
+			);
+			path = "Contact Us";
+			sourceTree = "<group>";
+		};
+		DD0E05A7293856D2008A4BDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD0E05AC293856F7008A4BDD /* MessageUI.framework */,
+				DD0E05AA293856D7008A4BDD /* Accounts.framework */,
+				DD0E05A8293856D2008A4BDD /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD0E05AE29399D0F008A4BDD /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				DD0E05AF29399D2F008A4BDD /* SocialTableViewController.h */,
+				DD0E05B029399D2F008A4BDD /* SocialTableViewController.m */,
+				DD0E05B229399D53008A4BDD /* SocialTableViewCell.h */,
+				DD0E05B329399D53008A4BDD /* SocialTableViewCell.m */,
+				DD0E05B529399D63008A4BDD /* SocialViewController.h */,
+				DD0E05B629399D63008A4BDD /* SocialViewController.m */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
 		DD653D3E293041CB00185834 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +172,7 @@
 				DD653D65293041CC00185834 /* BusinessAppTests */,
 				DD653D6F293041CC00185834 /* BusinessAppUITests */,
 				DD653D48293041CB00185834 /* Products */,
+				DD0E05A7293856D2008A4BDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +195,10 @@
 				DD653D4E293041CB00185834 /* SceneDelegate.m */,
 				DD653D50293041CB00185834 /* ViewController.h */,
 				DD653D51293041CB00185834 /* ViewController.m */,
+				DD0E059D29384A98008A4BDD /* Contact Us */,
+				DD0E0599293842C7008A4BDD /* Portfolio */,
+				DD653D7F29354F1F00185834 /* Services */,
+				DD0E05AE29399D0F008A4BDD /* Social */,
 				DD653D53293041CB00185834 /* Main.storyboard */,
 				DD653D56293041CC00185834 /* Assets.xcassets */,
 				DD653D58293041CC00185834 /* LaunchScreen.storyboard */,
@@ -134,6 +223,19 @@
 				DD653D72293041CC00185834 /* BusinessAppUITestsLaunchTests.m */,
 			);
 			path = BusinessAppUITests;
+			sourceTree = "<group>";
+		};
+		DD653D7F29354F1F00185834 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD653D8029354F3E00185834 /* ServicesViewController.h */,
+				DD653D8129354F3E00185834 /* ServicesViewController.m */,
+				DD653D8329354F6B00185834 /* ServicesTableViewCell.h */,
+				DD653D8429354F6B00185834 /* ServicesTableViewCell.m */,
+				DD653D8629354F9700185834 /* ServicesTableViewController.h */,
+				DD653D8729354F9700185834 /* ServicesTableViewController.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +368,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0E05B429399D53008A4BDD /* SocialTableViewCell.m in Sources */,
+				DD653D8829354F9700185834 /* ServicesTableViewController.m in Sources */,
+				DD0E059C293842E2008A4BDD /* PortfolioViewController.m in Sources */,
+				DD0E05B729399D63008A4BDD /* SocialViewController.m in Sources */,
 				DD653D52293041CB00185834 /* ViewController.m in Sources */,
 				DD653D4C293041CB00185834 /* AppDelegate.m in Sources */,
+				DD0E05B129399D2F008A4BDD /* SocialTableViewController.m in Sources */,
+				DD0E05A029384AA8008A4BDD /* ContactViewController.m in Sources */,
 				DD653D5D293041CC00185834 /* main.m in Sources */,
+				DD0E05A329384E06008A4BDD /* MapPin.m in Sources */,
+				DD653D8229354F3E00185834 /* ServicesViewController.m in Sources */,
 				DD653D4F293041CB00185834 /* SceneDelegate.m in Sources */,
+				DD0E05A6293852D7008A4BDD /* EmailViewController.m in Sources */,
+				DD653D8529354F6B00185834 /* ServicesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

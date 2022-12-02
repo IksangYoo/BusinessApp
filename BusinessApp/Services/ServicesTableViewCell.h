@@ -10,6 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ServicesTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *cellLabel;
 
 @end
 

@@ -9,7 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SocialTableViewController : UITableViewController
+@interface SocialTableViewController : UITableViewController {
+    NSArray *title;
+    NSArray *image;
+    
+}
 
 @end
 

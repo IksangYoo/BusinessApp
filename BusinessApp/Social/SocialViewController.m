@@ -15,7 +15,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.navigationItem.title = self.detail;
+    
+    if ([self.navigationItem.title isEqualToString:@"Facebook"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
+    }
+    if ([self.navigationItem.title isEqualToString:@"Twitter"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
+    }
+    if ([self.navigationItem.title isEqualToString:@"Youtube"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
+    }
+    if ([self.navigationItem.title isEqualToString:@"LinkedIn"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
+    }
+    if ([self.navigationItem.title isEqualToString:@"Google"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
+    }
+    if ([self.navigationItem.title isEqualToString:@"Website"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
+    }
+    
+    timer = [NSTimer scheduledTimerWithTimeInterval:1.0/2.0 target:self selector:@selector(loading) userInfo:nil repeats:YES];
+    
+}
+-(void)loading {
+    if (self.webView.loading) {
+        [self.indicator startAnimating];
+    }else {
+        [self.indicator stopAnimating];
+    }
 }
 
 /*
